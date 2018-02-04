@@ -99,17 +99,17 @@ class Book():
 		return self.pages
 
 	def __str__(self):
-		return "The book, " + self.title + " by " + self.author + " has " + self.num_pages + " pages."
+		return "The book, " + self.title + ", by " + self.author + " has " + self.num_pages + " pages."
 ```
 
 
 ## Problem 2
 ### (a)
-Create a class called <insert your name> with instance variables that you think represent important attributes about yourself.
+Create a class called Student with instance variables that you think represent important attributes about yourself.
 
 ### (b)
 Next, create methods that modify those instance variables. For example, for the class Imanol, I would write a method call birthday() that would increment my age by 1. 
 
 ### (c)
-Finally, once you are done creating that class, save it to a file called <insert name here>.py. Now, create another file called clone.py that creates 100 instances of the object based on yourself.
+Finally, once you are done creating that class, save it to a file called student.py. Now, create another file called clone.py that creates 100 instances of the object based on yourself.
 
