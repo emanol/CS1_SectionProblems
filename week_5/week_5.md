@@ -81,6 +81,28 @@ class Balance:
 		print(name + " has a balance of " + str(balance))
 ```
 
+### (f)
+```python
+class Book():
+	def __int__(self, title, author, num_pages):
+		self.title = title
+		self.author = author
+		self.num_pages = num_pages
+
+	def get_author(self):
+		return self.author
+
+	def get_title(self):
+		return self.title
+
+	def get_pages(self):
+		return self.pages
+
+	def __str__(self):
+		return "The book, " + self.title + " by " + self.author + " has " + self.num_pages + " pages."
+```
+
+
 ## Problem 2
 ### (a)
 Create a class called <insert your name> with instance variables that you think represent important attributes about yourself.
