@@ -1,5 +1,3 @@
-
-
 def test_var_args(*argv):
 	for arg in argv:
 		print(arg)
