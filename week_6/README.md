@@ -1,25 +1,25 @@
-# 1. Write down and record the state of the following lists at each step as they are modified by:
+## 1. Write down and record the state of the following lists at each step as they are modified by:
 - selection sort
 - insertion sort
 - merge sort
 
-## (a) list1 = [0, 3, -3, 16]
+### (a) list1 = [0, 3, -3, 16]
 
-## (b) list2 = [89, 45, 85, 81, 77, 94, 22, 79, 92, 91]
+### (b) list2 = [89, 45, 85, 81, 77, 94, 22, 79, 92, 91]
 
-## (c) list3 = [-1, 43, 43, 12, 18]
+### (c) list3 = [-1, 43, 43, 12, 18]
 
-## (d) Which algorithm sorted list1, list2, and list3 the fastest?
+### (d) Which algorithm sorted list1, list2, and list3 the fastest?
 
-# 2. Recursion
-## (a) Write a function called car_trip(msg) that takes a string as input, then prints that string, and then calls car_trip(msg) once again. Demo your function with the input "Are we there yet?" 
+## 2. Recursion
+### (a) Write a function called car_trip(msg) that takes a string as input, then prints that string, and then calls car_trip(msg) once again. Demo your function with the input "Are we there yet?" 
 
-## (b) Modify car_trip to terminate after it has called itself 100 times. Make sure that your function retains an element of recursion. [hint: consider adding another parameter to car trip; how would you increment in that case?]
+### (b) Modify car_trip to terminate after it has called itself 100 times. Make sure that your function retains an element of recursion. [hint: consider adding another parameter to car trip; how would you increment in that case?]
 
-## (c) Modify car_trip once again such that when car_trip is at an even count, it prints "...", and when it is at an odd count, it prints the input msg.
+### (c) Modify car_trip once again such that when car_trip is at an even count, it prints "...", and when it is at an odd count, it prints the input msg.
 
-# References
-## Selection Sort
+## References
+### Selection Sort
 ```python
 def selection_sort(the_list):
     n = len(the_list)     # makes it easy to denote the length of the list
@@ -40,7 +40,7 @@ def selection_sort(the_list):
         (the_list[i], the_list[smallest]) = (the_list[smallest], the_list[i])
 ```
 
-## Insertion Sort
+### Insertion Sort
 ```python
 def insertion_sort(the_list):
     n = len(the_list)   # how many items to sort
@@ -56,7 +56,7 @@ def insertion_sort(the_list):
         the_list[j+1] = key
 ```
 
-## Merge Sort
+### Merge Sort
 ```python
 # Take two sorted lists, the_list[p : q+1] and the_list[q+1 : r+1],
 # and merge them into the_list[p : r+1].
